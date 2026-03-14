@@ -1,0 +1,260 @@
+
+QGroupBox {
+    border: 2px solid gray;
+    }
+
+QPushButton#SaveBtn{color:black;
+            background-color:rgb(220, 220, 220);
+            border-radius:6px}
+QPushButton#ExitBtn{color:black;
+            background-color:rgb(220, 220, 220);
+            border-radius:6px}
+QPushButton:hover{color:red}
+QPushButton:pressed{background-color:rgb(180,180,180);border: None;}
+
+
+#MainWindow{border-image:url(a.jpg)}
+/* style.css */
+
+/* 标题样式 */
+#MainWindow {
+    background-color: #ea2020;
+}
+
+/* 检测结果与位置信息框样式 */
+#groupBox_3 {
+    background-color: #da1111;
+    border: 1px solid #ed0000;
+    border-radius: 5px;
+}
+
+/* 文件导入框样式 */
+#groupBox {
+    background-color: #ff0e0e;
+    border: 1px solid #e61c1c;
+    border-radius: 5px;
+}
+
+/* 文件输入框样式 */
+#PiclineEdit, #VideolineEdit, #CaplineEdit {
+    border: 1px solid #8d2121;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 检测结果框样式 */
+#groupBox_2 {
+    background-color: #db0606;
+    border: 1px solid #d12828;
+    border-radius: 5px;
+}
+
+/* 操作按钮样式 */
+#SaveBtn, #ExitBtn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-right: 10px;
+}
+
+/* 操作按钮悬停样式 */
+#SaveBtn:hover, #ExitBtn:hover {
+    background-color: #0056b3;
+}
+
+/* 主窗口标题样式 */
+#label_3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #61d65c;
+}
+
+/* 检测结果标签样式 */
+#label_4 {
+    font-weight: bold;
+}
+
+/* 检测结果数值样式 */
+#label_14, #label_17, #label_18, #label_19, #label_15 {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* 其他标签样式 */
+#label_6, #label_8, #label_7, #label_9, #label_10, #label_11, #label_13 {
+    font-weight: bold;
+}
+
+/* 表格样式 */
+#tableWidget {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表头样式 */
+#tableWidget QHeaderView::section {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 4px;
+}
+
+/* 表格内容样式 */
+#tableWidget QTableView {
+    alternate-background-color: #fd1111;
+}
+
+/* 检测结果标签样式 */
+#label_show {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url(:11.png);
+    background-size: cover;
+}
+/* style.css */
+
+/* 主窗口样式 */
+#MainWindow {
+    background-color: #f0f0f0;
+}
+
+/* 检测结果与位置信息框样式 */
+#groupBox_3 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 文件导入框样式 */
+#groupBox {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 文件输入框样式 */
+#PiclineEdit, #VideolineEdit, #CaplineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 检测结果框样式 */
+#groupBox_2 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表格样式 */
+#tableWidget {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表头样式 */
+#tableWidget QHeaderView::section {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 4px;
+}
+
+/* 表格内容样式 */
+#tableWidget QTableView {
+    alternate-background-color: #f0f0f0;
+}
+
+/* 检测结果标签样式 */
+#label_show {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url(:/icons/ui_imgs/11.png);
+    background-size: cover;
+}
+
+/* 其他标签样式 */
+#label_4, #label_6, #label_7, #label_8, #label_9, #label, #label_nums {
+    font-weight: bold;
+}
+
+/* 文件导入按钮样式 */
+#CapBtn, #PicBtn, #VideoBtn, #FilesBtn {
+    border: none;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+/* style.css */
+
+/* 主窗口样式 */
+#MainWindow {
+    background-color: #f0f0f0;
+}
+
+/* 检测结果与位置信息框样式 */
+#groupBox_3 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 文件导入框样式 */
+#groupBox {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 文件输入框样式 */
+#PiclineEdit, #VideolineEdit, #CaplineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* 检测结果框样式 */
+#groupBox_2 {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表格样式 */
+#tableWidget {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 表头样式 */
+#tableWidget QHeaderView::section {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 4px;
+}
+
+/* 表格内容样式 */
+#tableWidget QTableView {
+    alternate-background-color: #f0f0f0;
+}
+
+/* 检测结果标签样式 */
+#label_show {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url(:/icons/ui_imgs/11.png);
+    background-size: cover;
+}
+
+/* 其他标签样式 */
+#label_4, #label_6, #label_7, #label_8, #label_9, #label, #label_nums {
+    font-weight: bold;
+}
+
+/* 文件导入按钮样式 */
+#CapBtn, #PicBtn, #VideoBtn, #FilesBtn {
+    border: none;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}

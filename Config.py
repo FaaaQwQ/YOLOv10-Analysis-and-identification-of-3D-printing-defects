@@ -1,12 +1,3 @@
-#coding:utf-8
-
-# 图片及视频检测结果保存路径
-save_path = 'D:'
-
-# 使用的模型路径
-model_path = 'runs/detect/exp/weights/best.pt'
-
-
-names = {0: 'spaghetti', 1:'zits', 2:'stringing'}
-
-CH_names = ['意大利面缺陷', '小疙瘩', '拉丝']
+version https://git-lfs.github.com/spec/v1
+oid sha256:afc02408b0b337b4414cfd09878a3e80fd84257e73a32ec1fb904c15d750b11b
+size 266

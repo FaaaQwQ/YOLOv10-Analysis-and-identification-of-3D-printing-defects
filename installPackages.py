@@ -1,6 +1,3 @@
-import os
-pkgs = ['ultralytics','PyQt5==5.15.2','pyqt5-tools==5.15.2.3.1']
-
-for each in pkgs:
-    cmd_line = f"pip install {each} -i https://pypi.tuna.tsinghua.edu.cn/simple"
-    os.system(cmd_line)
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a2176eb33e626a78d5dd94d7a275cf299e04dbf13605e48ddf2c0bfdda02255
+size 205
